@@ -341,7 +341,7 @@ def plot_boxplot(ts_pivot, labels_final):
 # SIDEBAR MENU
 # ============================================================
 
-menu = st.sidebar.selectbox("Navigasi Analisis", [
+menu = st.sidebar.radio("Navigasi Analisis", [
     "1. Latar Belakang",
     "2. Persiapan Data",
     "3. Normalisasi",
